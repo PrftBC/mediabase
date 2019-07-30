@@ -1,9 +1,10 @@
 package com.example.mediabase;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletRegistrationBean;
-import org.springframework.context.annotation.Bean;
+        import org.springframework.boot.SpringApplication;
+        import org.springframework.boot.autoconfigure.SpringBootApplication;
+        import org.springframework.boot.web.servlet.ServletRegistrationBean;
+        import org.springframework.context.annotation.Bean;
+        import com.example.mediabase.movies.*;
 
 @SpringBootApplication
 public class Application {
