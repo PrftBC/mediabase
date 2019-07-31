@@ -32,10 +32,12 @@ public class Application {
         return new ServletRegistrationBean(actionServlet, "/moviefun/*");
     }
 
+/*
     @Bean @LoadBalanced
     public RestOperations restOperations() {
         return new RestTemplate();
     }
+*/
 
     @Bean
     public MovieClient movieClient(RestOperations restOperations) {
