@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableWebSecurity
 @Configuration
-@ConditionalOnProperty
+@ConditionalOnProperty(value="enable-oauth", havingValue = "false")
 public class DisableSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
